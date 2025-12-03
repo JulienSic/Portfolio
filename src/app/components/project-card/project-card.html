@@ -1,0 +1,22 @@
+<!--<p>PROJECT PAGE LOADED SUCCESSFULLY</p>-->
+
+<div class="project-card" [routerLink]="['/project', project?.id]">
+  <div class="project-card_container">
+    <div class="project-card_tags">
+      <span *ngFor="let tag of project.tags" class="project-card_tags_box">{{tag}}</span>
+    </div>
+    <div class="project-card_content">
+      <div class="project-card_image">
+        <img [src]="project.thumbnail ? project.thumbnail : '...'">
+      </div>
+
+
+
+        <h3 class="project-card_title">{{project.title}}</h3>
+
+        <p class="project-card_desc"> {{project.description}}</p>
+
+
+    </div>
+  </div>
+</div>

@@ -1,0 +1,87 @@
+<!--<p>project-detail works!</p>-->
+<div class="project-detail" *ngIf="project; else loading">
+
+  <header class="project-detail_header">
+    <div class="project-detail_header_content">
+      <a routerLink="/project" class="back-link">
+        <img src="assets/images/LeftArrow.png" class="back-arrow" alt="Back">
+      </a>
+    </div>
+
+    <h1 class="project-detail_title">{{ project.title }}</h1>
+  </header>
+
+  <body class="project-detail_container">
+
+  <section>
+  <div class="project-detail_timeline">
+    <span>{{ project.timeline }}</span>
+  </div>
+  </section>
+
+  <div class="project-detail_container-line">
+
+  </div>
+
+  <section class="project-detail_section">
+    <div class="project-detail_image">
+      <img [src]="project.thumbnail ? project.thumbnail : '...'" alt="Project Screenshot">
+    </div>
+
+    <div class="project-detail_text">
+      <h2 class="project-detail_text-title">A propos</h2>
+      <p class="project-detail_description">
+        {{ project.description }}
+      </p>
+    </div>
+  </section>
+
+  <div class="project-detail_container-line">
+
+  </div>
+
+  <section class="project-detail_section">
+    <div class="project-detail_image">
+      <img [src]="project.thumbnail ? project.image1 : '...'" alt="Project Screenshot">
+    </div>
+
+    <div class="project-detail_image">
+      <img [src]="project.thumbnail ? project.image2 : '...'" alt="Project Screenshot">
+    </div>
+  </section>
+
+  <!--<div class="project-detail_actions" *ngIf="project.link">
+    <a [href]="project.link" target="_blank" class="visit-button">
+      Visit Project Website
+    </a>
+  </div>-->
+
+  <div class="project-detail_container-line">
+
+  </div>
+
+  <section class="project-detail_section">
+
+    <div class="project-detail_tags">
+      <span *ngFor="let tag of project.tags" class="project-detail_tag-box">
+        {{ tag }}
+      </span>
+    </div>
+
+    <div class="project-detail_text">
+      <p class="project-detail_description">
+        {{ project.descDetail }}
+      </p>
+    </div>
+  </section>
+
+  </body>
+
+
+</div>
+
+<ng-template #loading>
+  <div class="loading-state">
+    <p>Loading project details...</p>
+  </div>
+</ng-template>

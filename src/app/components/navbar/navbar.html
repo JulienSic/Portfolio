@@ -1,0 +1,69 @@
+<nav class="nav">
+  <div class="nav_container">
+
+    <!-- Signature lg -->
+
+    <div class="nav_brand">
+      <img
+        src="assets/images/Signature.png"
+        alt="Logo"
+        class="h-12 w-12 object-contain"
+        height="70"
+        width="70"
+        routerLink="/home">
+      <span class="nav_signature">Mon Portfolio</span>
+    </div>
+
+    <div class="nav_externalLinks">
+      <a href="https://www.linkedin.com/in/julien-sicard-446a81221" target="_blank" class="nav_externalLinks-img">
+        <img src="assets/images/LinkedinLogo.png" alt="LinkedinLogo">
+      </a>
+      <a href="https://github.com/JulienSic" target="_blank" class="nav_externalLinks-img">
+        <img src="assets/images/mark-github.png" alt="GithubLogo">
+      </a>
+    </div>
+
+    <div class="nav_buttonContainer">
+      <!-- Home Button -->
+      <div class="md:flex items-center space-x-4">
+        <button
+          routerLink="/home"
+          routerLinkActive="bg-Main2"
+          class="nav_button">
+          Accueil
+        </button>
+      </div>
+
+      <!-- Projects Button -->
+      <div class="md:flex items-center space-x-4">
+        <button
+          routerLink="/project"
+          routerLinkActive="bg-Main2"
+          class="nav_button">
+          Projets
+        </button>
+      </div>
+
+      <!-- Skills Button -->
+      <div class="md:flex items-center space-x-4">
+        <button
+          routerLink="/skills"
+          routerLinkActive="bg-Main2"
+          class="nav_button">
+          Compétences
+        </button>
+      </div>
+
+      <!-- CV Button -->
+      <div class="md:flex items-center space-x-4">
+        <a
+          href="assets/doc/SICARD%20Julien%20CV%20Alternance%20Fullstack.pdf"
+          download="SICARD%20Julien%20CV%20Alternance%20Fullstack.pdf"
+          class="nav_button">
+          CV
+        </a>
+      </div>
+    </div>
+
+  </div>
+</nav>

@@ -1,0 +1,36 @@
+.project-page {
+  background-color: var(--color-Darker2);
+  padding: 20px;
+}
+
+.project-page_title {
+  width: fit-content;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: var(--color-Light);
+  font-size: 2rem;
+  font-weight: 500;
+
+  border-color: var(--color-Main2);
+  border-bottom-width: 2px;
+}
+
+.project-page_card-list {
+
+  margin: 60px auto;
+  width: 75%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.project-card-placeholder {
+  width: 520px;
+  height: 400px;
+  margin-left: 20px;
+  margin-right: 20px;
+}

@@ -1,0 +1,20 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@theme {
+}
+@layer base {
+  :root {
+    --color-Darker: theme('colors.darker');
+    --color-Darker2: theme('colors.darker2');
+    --color-Main: theme('colors.main');
+    --color-Main2: theme('colors.main2');
+    --color-Light: theme('colors.light');
+
+    --font-poppins: 'Poppins', sans-serif;
+  }
+}

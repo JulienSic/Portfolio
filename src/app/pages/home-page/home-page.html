@@ -1,0 +1,76 @@
+<!--
+<h1>Welcome to {{title}}</h1>
+-->
+<div class="home-page">
+  <div class="home-page_container">
+    <header class="home-page_header">
+      <div class="home-page_header_container">
+        <div class="home-page_header_summary">
+          <h1 class="home-page_header_title">
+            JULIEN SICARD
+          </h1>
+          <p class="home-page_header_subtitle">
+            Etudiant Epitech Developpement <br />
+            Web - Fullstack
+          </p>
+
+          <span class="home-page_header_catchphrase">Bienvenue sur mon Portfolio !</span>
+          <span class="home-page_header_email">contact.julien.sicard&#64;gmail.com</span>
+          <a
+            href="assets/doc/SICARD%20Julien%20CV%20Alternance%20Fullstack.pdf"
+            download="SICARD%20Julien%20CV%20Alternance%20Fullstack.pdf"
+            class="header-cvButton">
+            CV
+          </a>
+        </div>
+        <div class="home-page_header_banner">
+          <div class="home-page_header_banner_img01">
+            <img src="assets/images/Julien%20Sicard.jpg" alt="Header-profileImg" class="Header-profileImg" >
+          </div>
+          <div class="home-page_header_banner_img02">
+            <img src="assets/images/BannerImg.png" alt="Header-bannerImg" class="Header-bannerImg">
+          </div>
+        </div>
+      </div>
+    </header>
+    <body class="home-page_body">
+    <section class="home-page_body_projects_about-container">
+
+      <div class="home-page_body_projects_about-title-box">
+        <h2 class="home-page_body_projects_about-title">A propos</h2>
+      </div>
+      <div class="home-page_body_projects_about-text">
+        <p>
+          Hello World! je suis julien, j'ai 22 ans et je suis étudiant à Epitech Lyon en Pre-MSC<br/>
+          <br/>
+          Je suis actuellement et activement à la recherche d'une alternance dans le développement fullstack web,
+          j'ai réalisé plusieurs projet avec Angular, dont notamment mon portfolio.<br/>
+          <br/>
+          J'ai également un bachelor en infographie 2D/3D et je vise à développer une expertise en développement, et en graphisme.
+          Je suis passionné de jeux vidéos, de musique, de surf et bien d'autres !
+        </p>
+      </div>
+    </section>
+    <section class="home-page_body_projects_project-container">
+      <div class="home-page_body_projects_project-title-box">
+        <h2 class="home-page_body_projects_project-title">Projets Récents</h2>
+      </div>
+      <div class="home-page_body_lastProjectList">
+        <ng-container *ngIf="projects.length > 0">
+          <app-project-card
+            *ngFor="let p of recentProjects"
+            [project]="p">
+
+          </app-project-card>
+        </ng-container>
+        <p  *ngIf="projects.length === 0">No Project Found</p>
+      </div>
+      <div class="home-page_body_projects_project-arrowIcon">
+        <img src="assets/images/RightArrow.png" alt="">
+      </div>
+    </section>
+    </body>
+
+  </div>
+
+</div>

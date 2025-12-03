@@ -1,0 +1,20 @@
+<!--<p>project-page works!</p>-->
+<div class="project-page">
+  <div class="project-page_container">
+    <h1 class="project-page_title">
+      Mes Projets :
+    </h1>
+
+    <div class="project-page_card-list">
+      <ng-container *ngIf="projects.length > 0">
+      <app-project-card
+        *ngFor="let p of projects"
+      [project]="p">
+
+      </app-project-card>
+      </ng-container>
+      <p  *ngIf="projects.length === 0">No Project Found</p>
+      <div class="project-card-placeholder"></div>
+    </div>
+  </div>
+</div>

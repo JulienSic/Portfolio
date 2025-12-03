@@ -1,0 +1,119 @@
+.skill-page {
+  background-color: var(--color-Darker2);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--font-poppins);
+  color: var(--color-Light);
+  gap: 20px;
+}
+
+.skill-page_header {
+  width: 95%;
+  margin: 0 auto;
+
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.skill-page_header-title {
+  width: fit-content;
+  height: 50px;
+  margin: 0 auto;
+  padding: 20px 0 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 2rem;
+  font-weight: 500;
+
+  border-color: var(--color-Main2);
+  border-bottom-width: 2px;
+}
+
+.skill-page_container {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  justify-content: space-between;
+
+  /*background-color: var(--color-Darker);
+  margin-left: 20px;
+  margin-right: 20px;
+  border-width: 1px;
+  border-radius: 0.25rem;
+  border-color: rgb(96 98 227 / 0.25);*/
+}
+
+.skill-page_section {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  /*align-items: center;*/
+  gap: 40px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.skill-page_section-title {
+  width: fit-content;
+  height: 50px;
+  margin: 0 auto;
+  padding: 20px 0 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 1.5rem;
+  font-weight: 200;
+
+  border-color: var(--color-Main2);
+  border-bottom-width: 2px;
+}
+
+.skill-page_block {
+  width: 45%;
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  /*align-items: center;*/
+  gap: 20px;
+  margin: 0 auto;
+
+
+}
+
+.skill-page_content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  /*align-items: center;*/
+  gap: 20px;
+
+}
+
+.skill-page_content_row {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+
+  padding-bottom: 5px;
+  border-bottom: 1px solid var(--color-Darker);
+}
+
+.skill-page_content_row-text {
+  font-size: 1rem;
+}

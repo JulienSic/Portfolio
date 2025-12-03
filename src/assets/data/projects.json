@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "title": "My Portfolio Website",
+    "timeline": "Novembre 2025 - Décembre 2025",
+    "description": "Création de mon portfolio, avec Angular standalone, Typescript, et Tailwindcss afin de montrer mes compétences",
+    "descDetail": "Création d'un site web Front avec Angular standalone afin de monter en compétence, réalisé sur une période de 1 mois, avec réalisation de maquette Figma. j'ai dans un premier temps créé un JSON pour simuler des requêtes API, pour développer un backend, pour une architecture Rest.",
+    "thumbnail": "assets/images/HomePage.png",
+    "image1": "assets/images/Figma.png",
+    "image2": "assets/images/ProjectPage.png",
+    "tags": ["Angular", "Typescript", "Tailwindcss"],
+    "link": "https://github.com/JulienSic/myportfolio"
+  },
+  {
+    "id": 2,
+    "title": "Joblife",
+    "timeline": "5 Octobre 2025 - 29 Octobre 2025",
+    "description": "Création d'un site de job Board, avec Angular standalone, Express.js, MySQL, Tailwindcss.",
+    "descDetail": "Création d'un site Job Board, Front avec Angular standalone et tailwindCSS, et Back avec Express.js, sequelize et MySQL. Le projet a été réalisé en groupe de 3 sur une période de 2 semaines. On a utilisé Trello pour le suivi, et Github pour metter en commun le code.",
+    "thumbnail": "assets/images/JBHomepage.png",
+    "image1": "assets/images/LoginPage.png",
+    "image2": "assets/images/AdminPannelPage.png",
+    "tags": ["Node.js", "Express", "Angular","Tailwindcss","MySQL"],
+    "link": "https://github.com/JulienSic/joblife"
+  },
+  {
+    "id": 3,
+    "title": "Trouble in Heaven - Jeu en 2D",
+    "timeline": "2 Novembre 2025 - 23 Novembre 2025",
+    "description": "Réalisation d'un jeu 2D en java, avec LibGDX",
+    "descDetail": "Création d'un jeu vidéo en 2D avec LibGDX sur PC, avec une gestion des responsabilités. Le projet était en groupe de 3 sur une période de 3 semaines. On a utilisé Trello pour le suivi des tâches, et la méthode Agile, et Figma pour les maquettes de l'UI. Toutes les informations techniques et artistiques sont centralisée sur le Game Design Document",
+    "thumbnail": "assets/images/GameMainMenu.png",
+    "image1": "assets/images/GameIngameView.png",
+    "image2": "assets/images/GameDeathMenu.png",
+    "tags": ["Java", "LibGDX", "Agile"],
+    "link": "https://github.com/JulienSic/joblife"
+  }
+]
