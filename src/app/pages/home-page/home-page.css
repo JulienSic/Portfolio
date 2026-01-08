@@ -145,6 +145,12 @@
 
 }
 
+home-page_body_projects_about-text.is-mobile {
+  background-color: var(--color-Main);
+  width: 90%;
+
+}
+
 .home-page_body_projects_project-title-box {
   width: 40%;
   margin: 0 auto;
